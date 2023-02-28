@@ -44,6 +44,12 @@ class TV:
     def getNumTV(self):
         return self.numTV
     
+    def setNumTV(self, numtv):
+        self.numTV = numtv
+
+    def setEstado(self, estado):
+        self.estado = estado
+    
     def getEstado(self):
         return self.estado
 #metodos
