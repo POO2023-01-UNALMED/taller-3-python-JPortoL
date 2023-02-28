@@ -42,9 +42,9 @@ class TV:
         return self.canal
 
     def getNumTV(self):
-        return self.numTV
+        return TV.numTV
     
-    def setNumTV(TV, numTV):
+    def setNumTV(numTV):
         TV.numTV = numTV
 
     def setEstado(self, estado):
